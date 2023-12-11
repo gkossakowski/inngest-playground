@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "inngest-playground"
+version = "0.1.0"
+description = ""
+authors = ["Grzegorz Kossakowski <grzegorz.kossakowski@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+inngest = "^0.2.2"
+django = "^5.0"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
